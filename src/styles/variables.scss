@@ -1,0 +1,92 @@
+// MDM specific variables
+$mdm-font-size: 16;
+$mdm-heading-font-style: italic;
+$mdm-primary-color: #05477A;
+
+// Preset variables
+$body-font-family: 'Roboto', sans-serif;
+$border-radius-root: 0;
+$btn-font-weight: 400;
+$btn-border-radius: 4px;
+$heading-font-family: 'Roboto', sans-serif;
+$headings: (
+        'h1':(
+                'font-family': $heading-font-family,
+                'letter-spacing': initial,
+                'size': #{96 / $mdm-font-size}rem,
+                'weight': 900
+        ),
+        'h2':(
+                'font-family': $body-font-family,
+                'letter-spacing': initial,
+                'size': #{60 / $mdm-font-size}rem,
+                'weight': 300
+        ),
+        'h3':(
+                'font-family': $heading-font-family,
+                'letter-spacing': initial,
+                'size': #{48 / $mdm-font-size}rem,
+                'weight': 900
+        ),
+        'h4':(
+                'font-family': $body-font-family,
+                'letter-spacing': initial,
+                'size': #{34 / $mdm-font-size}rem,
+                'weight': 400
+        ),
+        'h5':(
+                'font-family': $body-font-family,
+                'letter-spacing': initial,
+                'size': #{24 / $mdm-font-size}rem,
+                'weight': 400
+        ),
+        'h6':(
+                'font-family': $heading-font-family,
+                'letter-spacing': initial,
+                'size': #{20 / $mdm-font-size}rem,
+                'weight': 700
+        ),
+        'subtitle-1':(
+                'font-family': $body-font-family,
+                'letter-spacing': initial,
+                'size': #{16 / $mdm-font-size}rem,
+                'weight': 500
+        ),
+        'subtitle-2':(
+                'font-family': $heading-font-family,
+                'letter-spacing': initial,
+                'size': #{14 / $mdm-font-size}rem,
+                'weight': 500
+        ),
+        'body-1':(
+                'font-family': $heading-font-family,
+                'letter-spacing': initial,
+                'size': #{16 / $mdm-font-size}rem,
+                'weight': 400
+        ),
+        'body-2':(
+                'font-family': $body-font-family,
+                'letter-spacing': initial,
+                'size': #{14 / $mdm-font-size}rem,
+                'weight': 400
+        ),
+        'caption':(
+                'font-family': $heading-font-family,
+                'letter-spacing': initial,
+                'size': #{12 / $mdm-font-size}rem,
+                'weight': 400
+        ),
+        'overline':(
+                'font-family': $body-font-family,
+                'letter-spacing': initial,
+                'size': #{10 / $mdm-font-size}rem,
+                'weight': 700
+        )
+);
+$icon-outlined-border-width: 2px;
+$material-light: (
+        'app-bar': #FFFFFF,
+        'background': #FFFFFF,
+        'chips': #FFFFFF
+);
+$stepper-elevation: 0;

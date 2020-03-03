@@ -7,12 +7,12 @@
       <v-form>
         <v-text-field
                 label="Username"
-                prepend-icon="mdi-account-circle"
+                prepend-inner-icon="mdi-account-circle" outlined dense
                 clearable />
         <v-text-field
                 :type="showPassword ? 'text' : 'password'"
                 label="Password"
-                prepend-icon="mdi-lock"
+                prepend-inner-icon="mdi-lock" outlined dense
                 :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'"
                 @click:append="showPassword = !showPassword"
                 clearable />
@@ -20,9 +20,9 @@
     </v-card-text>
     <v-divider></v-divider>
     <v-card-actions>
-      <v-btn color="success">Register</v-btn>
+      <v-btn color="accent">Register</v-btn>
       <v-spacer></v-spacer>
-      <v-btn color="info">Login</v-btn>
+      <v-btn color="secondary">Login</v-btn>
     </v-card-actions>
   </v-card>
 </template>

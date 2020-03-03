@@ -1,15 +1,11 @@
 <template>
   <v-app>
-    <v-app-bar
-            app
-            dark
-            color="primary" >
+    <v-app-bar app>
       <v-toolbar-title>{{ appTitle }}</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
               v-for="link in links"
               :key="`${link.label}-header-link`"
-              color="white"
               text
               :to="link.url">
         {{ link.label }}
